@@ -1,36 +1,41 @@
 .section {
   padding: 10px;
-  max-width: 400px;
+  max-width: 500px;
 }
 .header {
-  text-align: center;
+  text-align: left;
   margin: 0 auto;
 }
 .form_input {
+  width: 100%;
   display: flex;
   flex-direction: column;
-
+  align-items: flex-start;
+  border: black 1px solid;
+  border-radius: 10px;
   padding: 20px;
 }
 .label {
   display: flex;
   flex-direction: column;
-  text-align: center;
+  text-align: left;
   font-weight: 500;
 }
 .input_name,
 .input_phone,
 .input {
   padding: 2px 5px;
-  margin: 5px auto 10px;
+  margin: 5px 0;
+  max-width: 400px;
   border: 1px solid #000;
 }
 .button_submit {
   width: fit-content;
   padding: 5px;
-  margin: 0 auto;
   border: 1px solid black;
   border-radius: 3px;
+  background-color: rgb(178, 178, 212);
+  color: #000;
   transition: all ease-in-out 0.3s;
 }
 .button_submit:hover {
