@@ -1,0 +1,65 @@
+.section {
+  padding: 10px;
+  max-width: 400px;
+}
+.header {
+  text-align: center;
+  margin: 0 auto;
+}
+.form_input {
+  display: flex;
+  flex-direction: column;
+
+  padding: 20px;
+}
+.label {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-weight: 500;
+}
+.input_name,
+.input_phone,
+.input {
+  padding: 2px 5px;
+  margin: 5px auto 10px;
+  border: 1px solid #000;
+}
+.button_submit {
+  width: fit-content;
+  padding: 5px;
+  margin: 0 auto;
+  border: 1px solid black;
+  border-radius: 3px;
+  transition: all ease-in-out 0.3s;
+}
+.button_submit:hover {
+  background-color: rgb(53, 55, 222);
+  color: aliceblue;
+}
+.phonebook_list {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  align-items: left;
+}
+.list_item {
+  margin-left: 20px;
+}
+.delete_button {
+  width: fit-content;
+  padding: 5px;
+  margin-left: 10px;
+  margin-right: 5px;
+  margin-bottom: 3px;
+  border: 1px solid black;
+  border-radius: 3px;
+  transition: all ease-in-out 0.3s;
+}
+.delete_button:hover {
+  background-color: rgb(199, 46, 26);
+  color: aliceblue;
+}
+button {
+  cursor: pointer;
+}
