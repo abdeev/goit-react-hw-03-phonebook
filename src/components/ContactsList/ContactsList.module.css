@@ -1,0 +1,9 @@
+.phonebook_list {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  align-items: left;
+}
+.list_item {
+  margin-left: 20px;
+}

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import DeleteButton from './Button'
-import css from './Phonebook.module.css';
+import DeleteButton from '../Button/Button'
+import css from './ContactsList.module.css';
 
 class ContactsList extends Component {
     state = {

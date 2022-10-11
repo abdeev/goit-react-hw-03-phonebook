@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import css from './Phonebook.module.css';
+import css from './Button.module.css';
 
 const DeleteButton = ({ handleDeleteCard }) => {
   return (
