@@ -2,7 +2,6 @@ import { Component } from "react";
 import { nanoid } from 'nanoid';
 import css from './Form.module.css';
 
-
 class ContactForm extends Component {
     state = {
         id:'',
@@ -11,12 +10,10 @@ class ContactForm extends Component {
     }
     handleChange = e => {
         this.setState({ id: nanoid(), [e.currentTarget.name]: e.currentTarget.value });
-
     };
     onButtonSubmit = (e) => {
         e.preventDefault();
         this.props.submitProps(this.state);
-        
         this.reset();
     };
     reset = () => {
@@ -39,8 +36,6 @@ class ContactForm extends Component {
                     onChange={this.handleChange}
                 />
                 </label>
-                
-                
                 
                 <label className={css.label} htmlFor="number">
                     Phone number
